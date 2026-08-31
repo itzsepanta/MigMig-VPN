@@ -4,9 +4,7 @@
 
 # MigMig VPN
 
-**A desktop VPN client for Windows** — built to behave like
-MigMig for Android and to run the same engine underneath it:
-[mihomo](https://github.com/MetaCubeX/mihomo), through FlClash's protocol glue.
+**A desktop VPN client for Windows**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-7C3AED?style=for-the-badge)](#-download)
 [![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-download)
