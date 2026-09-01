@@ -37,8 +37,15 @@
 - **A polished, animated interface** — violet-to-pink brand theme, light and
   dark modes, and smooth transitions throughout.
 
+---
+
+Thank you, WhiteDNS, for your contribution🙏
+
+---
+
 <div align="center">
 
-**Made with ❤️ and ☕ by the RyxoStudio**
+**Made with ❤️ and ☕ by the RyxoStudio**  
+*In gratitude to WhiteDNS for their Proxy System*
 
 </div>
