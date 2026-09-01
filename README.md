@@ -39,13 +39,9 @@
 
 ---
 
-Thank you, WhiteDNS, for your contribution🙏
-
----
-
 <div align="center">
 
 **Made with ❤️ and ☕ by the RyxoStudio**  
-*In gratitude to WhiteDNS for their Proxy System*
+*Thanks WhiteDNS for Proxy System*
 
 </div>
