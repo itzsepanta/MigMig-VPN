@@ -4,44 +4,63 @@
 
 # MigMig VPN
 
-**A desktop VPN client for Windows**
+**A modern desktop VPN client for Windows**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-7C3AED?style=for-the-badge)](#-download)
-[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-download)
+[![Version](https://img.shields.io/badge/version-1.0.0-7C3AED?style=for-the-badge)](#download)
+[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#download)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
 
 </div>
 
 ---
 
-## What it does
+## Overview
 
-- **Connects through a subscription** — any `vless://`, `vmess://`, `trojan://`,
-  `ss://`, `hysteria2://` or `wireguard://` list you add.
-- **Chooses for you, or lets you choose** — filter by country, by protocol, or
-  pin one node by hand. A choice nothing matches is refused rather than
-  silently ignored.
-- **Reports what is true** — the status card shows the node's claimed country
-  and the country of the address the internet actually sees, measured through
-  the tunnel. When they disagree, the measurement wins and the tooltip says so.
-- **Recovers on its own** — a connection is re-checked every 20 seconds and
-  moves to another node if it stops carrying traffic. A node you pinned by
-  hand is left alone and reported instead.
-- **A server workbench** — test any subscription's nodes for reachability,
-  delay and throughput; sort by any column; share a node's link.
-- **Tunnel-check engine** — probes endpoints over TCP / TLS / HTTP /
-  WebSocket / UDP / QUIC / DNS and grades them A+ to F, with false-positive
-  detection.
-- **Runs in the background** — closing the window hides it to the tray; the
-  tunnel keeps running.
-- **A polished, animated interface** — violet-to-pink brand theme, light and
-  dark modes, and smooth transitions throughout.
+MigMig VPN is a Windows desktop client built for reliability and clarity.  
+It connects through your own subscriptions and manual configs, surfaces real exit information, and recovers automatically when a route fails.
+
+---
+
+## Features
+
+### Connectivity
+- **Subscription support** for `vless://`, `vmess://`, `trojan://`, `ss://`, `hysteria2://`, `wireguard://`, `anytls://`, and `vpn://`
+- **Manual configs** — paste share links or WireGuard / AmneziaWG profiles and use them alongside subscriptions
+- **Smart selection** — filter by country or protocol, or pin a specific node; invalid choices are rejected instead of ignored
+- **Accurate status** — shows the node’s claimed location and the real exit country measured through the tunnel; when they differ, the measurement wins
+
+### Reliability
+- **Health checks** every 20 seconds with automatic failover when traffic stops
+- **Pinned nodes stay pinned** — manual selections are never silently overridden
+- **Background operation** — closing the window minimizes to the tray; the tunnel keeps running
+
+### Tools
+- **Server workbench** — test reachability, latency, and throughput; sort results; share node links
+- **Tunnel-check engine** — probes over TCP / TLS / HTTP / WebSocket / UDP / QUIC / DNS with A+–F grading and false-positive detection
+
+### Interface
+- Clean, animated UI with light and dark modes
+- Violet-to-pink brand theme and smooth transitions throughout
+
+---
+
+## Download
+
+See the [Releases](../../releases) page for the latest Windows build.
+
+**Requirements:** Windows 10 or Windows 11
+
+---
+
+## Community
+
+Join the Discord for support, feedback, and updates:  
+[https://discord.gg/Wt3vD45hu2](https://discord.gg/Wt3vD45hu2)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ and ☕ by the RyxoStudio**  
-*Thanks WhiteDNS for Proxy System*
+**Made with ❤️ and ☕ by RyxoStudio**
 
 </div>
