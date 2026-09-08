@@ -6,7 +6,7 @@
 
 **A modern desktop VPN client for Windows**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-7C3AED?style=for-the-badge)](#download)
+[![Version](https://img.shields.io/badge/version-1.1.0-7C3AED?style=for-the-badge)](#download)
 [![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#download)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
 
