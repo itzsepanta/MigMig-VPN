@@ -1,15 +1,18 @@
 <div align="center">
 
-<img src="icon.png" alt="MigMig VPN" width="96" />
+<img src="icon.png" alt="MigMig VPN" width="110" />
 
-# MigMig VPN
+# 🛡️ MigMig VPN
 
-**A modern desktop VPN client for Windows**
+**A modern, reliable desktop VPN client for Windows**
 
-<div align="center">
+*Built for clarity, speed, and control — with real exit verification and automatic failover.*
+
+<br>
 
 [![Version](https://img.shields.io/badge/version-1.1.0-7C3AED?style=for-the-badge&logo=semanticrelease&logoColor=white)](#download)
 [![Status](https://img.shields.io/badge/status-stable-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
+[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white)](#download)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
 [![Downloads](https://img.shields.io/github/downloads/itzsepanta/MigMig-VPN/total?style=for-the-badge&logo=github&color=8B5CF6&labelColor=181717&label=Total%20Downloads)](https://github.com/itzsepanta/MigMig-VPN/releases)
 
@@ -17,53 +20,88 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
-MigMig VPN is a Windows desktop client built for reliability and clarity.  
-It connects through your own subscriptions and manual configs, surfaces real exit information, and recovers automatically when a route fails.
+**MigMig VPN** is a Windows desktop client engineered for **reliability and transparency**.
+It connects through your own subscriptions and manual configs, surfaces **real exit information**, and **recovers automatically** when a route fails — no silent drops, no guesswork.
+
+> 🎯 *No telemetry. No bundled servers. Just your configs, working the way they should.*
 
 ---
 
-## Features
+## ✨ Features
 
-### Connectivity
-- **Subscription support** for `vless://`, `vmess://`, `trojan://`, `ss://`, `hysteria2://`, `wireguard://`, `anytls://`, and `vpn://`
-- **Manual configs** — paste share links or WireGuard / AmneziaWG profiles and use them alongside subscriptions
-- **Smart selection** — filter by country or protocol, or pin a specific node; invalid choices are rejected instead of ignored
-- **Accurate status** — shows the node’s claimed location and the real exit country measured through the tunnel; when they differ, the measurement wins
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Reliability
-- **Health checks** every 20 seconds with automatic failover when traffic stops
+### 🔌 Connectivity
+
+- **Broad protocol support** — `vless://`, `vmess://`, `trojan://`, `ss://`, `hysteria2://`, `wireguard://`, `anytls://`, and `vpn://`
+- **Manual configs** — paste share links or import **WireGuard / AmneziaWG** profiles alongside your subscriptions
+- **Smart selection** — filter by **country** or **protocol**, or pin a specific node; invalid choices are **rejected**, not ignored
+- **Accurate status** — displays the node's *claimed* location **and** the *real* exit country measured through the tunnel. When they differ, **the measurement wins.**
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ Reliability
+
+- **Health checks** every **20 seconds** with automatic failover when traffic stalls
 - **Pinned nodes stay pinned** — manual selections are never silently overridden
-- **Background operation** — closing the window minimizes to the tray; the tunnel keeps running
-
-### Tools
+- **Background operation** — closing the window minimizes to tray; the tunnel keeps running
+- **Tunnel-check engine** — probes over **TCP / TLS / HTTP / WebSocket / UDP / QUIC / DNS** with **A+–F grading** and false-positive detection
 - **Server workbench** — test reachability, latency, and throughput; sort results; share node links
-- **Tunnel-check engine** — probes over TCP / TLS / HTTP / WebSocket / UDP / QUIC / DNS with A+–F grading and false-positive detection
 
-### Interface
-- Clean, animated UI with light and dark modes
-- Violet-to-pink brand theme and smooth transitions throughout
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🎨 Interface
+
+- Clean, **animated UI** with **light & dark** modes
+- **Violet → Pink** brand theme with smooth transitions throughout
+- Native Windows 10/11 look & feel
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Download
+## 📥 Download
 
-See the [Releases](../../releases) page for the latest Windows build.
+<div align="center">
 
-**Requirements:** Windows 10 or Windows 11
+### Latest Release — `v1.1.0`
+
+[![Download for Windows](https://img.shields.io/badge/⬇_Download_for_Windows-MigMig_VPN.exe-7C3AED?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/itzsepanta/MigMig-VPN/releases/latest)
+
+**Windows 10 / 11 · 64-bit · No installation required — just run the `.exe`**
+
+</div>
+
+> 💡 **Tip:** If Windows SmartScreen shows a warning, click **More info → Run anyway**. The app is safe and open about its behavior.
 
 ---
 
-## Community
+## 🚀 Quick Start
 
-Join the Discord for support, feedback, and updates:  
-[https://discord.gg/Wt3vD45hu2](https://discord.gg/Wt3vD45hu2)
+1. **Download** the latest installer from the [Releases](https://github.com/itzsepanta/MigMig-VPN/releases) page.
+2. **Install** and launch **MigMig VPN**.
+3. **Add a subscription** (paste your share link) or import a **manual config**.
+4. **Pick a node** — or let Smart Selection choose the best one.
+5. **Connect** and verify your **real exit country** in the status panel. ✅
 
 ---
 
 <div align="center">
 
-**Made with ❤️ and ☕ by RyxoStudio**
+### ⭐ If MigMig VPN helps you, consider starring the repo!
+
+**Made with ❤️ and ☕ by [RyxoStudio](https://ryxo.ir)**
+
+<sub>© 2026 MigMig VPN · All rights reserved.</sub>
 
 </div>
