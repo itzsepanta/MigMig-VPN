@@ -14,7 +14,7 @@
 [![Status](https://img.shields.io/badge/status-stable-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
 [![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white)](#download)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
-[![Downloads](https://img.shields.io/github/downloads/itzsepanta/MigMig-VPN/total?style=for-the-badge&logo=github&color=8B5CF6&labelColor=181717&label=Total%20Downloads)](https://github.com/itzsepanta/MigMig-VPN/releases)
+[![Downloads](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/itzsepanta/5c410d35f0eb048165280ab2276adebc/raw/migmig-vpn-downloads.json)](https://github.com/itzsepanta/MigMig-VPN/releases)
 
 </div>
 
