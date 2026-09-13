@@ -6,9 +6,13 @@
 
 **A modern desktop VPN client for Windows**
 
-[![Version](https://img.shields.io/badge/version-1.1.0-7C3AED?style=for-the-badge)](#download)
-[![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#download)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
+<div align="center">
+
+[![Version](https://img.shields.io/badge/version-1.1.0-7C3AED?style=for-the-badge&logo=semanticrelease&logoColor=white)](#download)
+[![Status](https://img.shields.io/badge/status-stable-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Wt3vD45hu2)
+[![GitHub Stars](https://img.shields.io/github/stars/USERNAME/REPO?style=for-the-badge&logo=github&color=FFD700&labelColor=181717)](https://github.com/USERNAME/REPO/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/USERNAME/REPO/total?style=for-the-badge&logo=github&color=8B5CF6&labelColor=181717&label=Total%20Downloads)](https://github.com/USERNAME/REPO/releases)
 
 </div>
 
