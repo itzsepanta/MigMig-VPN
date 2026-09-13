@@ -1,0 +1,33 @@
+name: Update Downloads Badge
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Count .exe downloads
+        id: count
+        run: |
+          TOTAL=$(curl -s "https://api.github.com/repos/itzsepanta/MigMig-VPN/releases?per_page=100" \
+            | jq '[.[].assets[] | select(.name | test("\\.exe$"; "i")) | .download_count] | add // 0')
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "Total .exe downloads: $TOTAL"
+
+      - name: Update Gist badge
+        uses: schneegans/dynamic-badges-action@v1.7.0
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gistID: 5c410d35f0eb048165280ab2276adebc
+          filename: migmig-vpn-downloads.json
+          label: Total Downloads
+          message: ${{ steps.count.outputs.total }}
+          color: 7C3AED
+          labelColor: 181717
+          style: for-the-badge
+          logo: github
