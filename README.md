@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.png" alt="MigMig VPN" width="110" />
+<img src="logo.png" alt="MigMig VPN" width="110" />
 
 # 🛡️ MigMig VPN
 
