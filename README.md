@@ -89,7 +89,7 @@ It connects through your own subscriptions and manual configs, surfaces **real e
 ## 🚀 Quick Start
 
 1. **Download** the latest installer from the [Releases](https://github.com/itzsepanta/MigMig-VPN/releases) page.
-2. **Install** and launch **MigMig VPN**.
+2. **Install** and launch **RyxoN**.
 3. **Add a subscription** (paste your share link) or import a **manual config**.
 4. **Pick a node** — or let Smart Selection choose the best one.
 5. **Connect** and verify your **real exit country** in the status panel. ✅
@@ -98,10 +98,10 @@ It connects through your own subscriptions and manual configs, surfaces **real e
 
 <div align="center">
 
-### ⭐ If MigMig VPN helps you, consider starring the repo!
+### If RyxoN helps you, consider starring the repo!
 
 **Made with ❤️ and ☕ by [RyxoStudio](https://ryxo.ir)**
 
-<sub>© 2026 MigMig VPN · All rights reserved.</sub>
+<sub>© 2026 RyxoN · All rights reserved.</sub>
 
 </div>
