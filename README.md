@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="RyxoN.png" alt="RyxoN" width="110" />
+<img src="icon.png" alt="RyxoN" width="110" />
 
-# 🛡️ MigMig VPN
+# RyxoN
 
 **A modern, reliable desktop VPN client for Windows**
 
@@ -22,7 +22,7 @@
 
 ## 📖 Overview
 
-**MigMig VPN** is a Windows desktop client engineered for **reliability and transparency**.
+**RyxoN** is a Windows desktop client engineered for **reliability and transparency**.
 It connects through your own subscriptions and manual configs, surfaces **real exit information**, and **recovers automatically** when a route fails — no silent drops, no guesswork.
 
 > 🎯 *No telemetry. No bundled servers. Just your configs, working the way they should.*
